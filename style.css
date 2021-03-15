@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 550px;
+    height: 550px;
+    margin: 0 0;
+    font-family: 'Roboto', sans-serif;
+}
+/*********tatup-logo --Front**************/
+.TISL{
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: rgb(255, 220, 226);
+    display: flex;
+    width: 300px;
+    height: 180px;
+}
+img{
+    width: 70px;
+   margin: 0 auto;
+    margin-top: 40px;
+}
+/********cash-deposit-card-details******/
+.cash-deposit-card-details{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.card-name{
+    color: red;
+    font-size: 17px;
+    margin-left: -30px;
+}
+.amount{
+    margin-top: 18px;
+    margin: 10px auto;
+    font-size: 45px;
+    font-weight: 400;
+    color: red;
+}
+.tatup-logo{
+    display: flex;
+    flex-flow: column;
+}
+.company-name{
+    font-size: 13px;
+    margin-top: 7px;
+    width: 130px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+.link{
+    background-color: red;
+    width: 300px; 
+    height: 22px;
+    margin-left: 40px; 
+    text-align: center;
+    color: white;
+    font-size: 12px;
+} 
+.phone-no{
+    font-size: 13px;
+}
+.fa-user{
+    color: red;
+    font-size: 13px;
+    margin-top: 36px;
+    margin-right: 5px;
+}
+
+/*********End of --Front**************/
+
+/*********tatup-Back**************/
